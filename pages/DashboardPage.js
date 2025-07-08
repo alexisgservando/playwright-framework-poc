@@ -9,7 +9,7 @@ export class DashboardPage {
 
   // Navigation
   async goto() {
-    await this.page.goto('http://localhost:4200/pages/iot-dashboard');
+    await this.page.goto('https://m26zq4zl-4200.use.devtunnels.ms/pages/iot-dashboard');
   }
 
   // Actions
